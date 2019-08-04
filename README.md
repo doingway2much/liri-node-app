@@ -7,7 +7,7 @@ Here are a list of the LIRI commands and what they do:
 
 1. node liri.js concert-this + artist  (Searches for concerts by the artists supplied) 
 ![img1](https://github.com/doingway2much/liri-node-app/blob/master/img/concert-this.JPG?raw=true)
-2. node liri.js do-what-it-says  (Randomly picks something to do from the ramdom.txt file and executes the script for Spotify or OMDB)
+2. node liri.js do-what-it-says  (Randomly picks something to do from the ramdom.txt file))
 ![img2](https://github.com/doingway2much/liri-node-app/blob/master/img/do-what-it-says.JPG?raw=true)
 3. node liri.js movie-this + movie title  (Searches for the movie name that the user supplied in the second peramater)
 ![img3](https://github.com/doingway2much/liri-node-app/blob/master/img/movie-this.JPG?raw=true)
