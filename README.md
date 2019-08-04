@@ -16,8 +16,13 @@ Here are a list of the LIRI commands and what they do:
 
 
 ***
-To run the bot you will need need the followin pakages installed:
+#Install Instructions:
 
+1. Clone the GitHub repo using the following command:
+- "git clone https://github.com/doingway2much/liri-node-app.git"
+
+2. To run the bot you will need need the followin pakages installed:
+- "npm install"
 *(Please ntoe that the "package.json" files has all the pakages you need so you should be able to run "npm install")*
 
 - axios
@@ -25,5 +30,14 @@ To run the bot you will need need the followin pakages installed:
 - moment
 - node-spotify-api
 
+3. You will finally neeed a Spotify API key and will have to create a ".env" file with your Spotify API details in the folling format:
+
+# Spotify API keys
+
+SPOTIFY_ID=your-spotify-id
+SPOTIFY_SECRET=your-spotify-secret
+
+
 ***
+
 
