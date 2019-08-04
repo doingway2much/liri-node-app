@@ -36,6 +36,7 @@ switch (liriOption) {
         console.log("============================================================")
         console.log("");
         console.log("I'm sorry, " + liriOption + " is not a command that I am familiar with. Please use one of the following commands:" );
+        console.log("node liri.js concert-this + artist -- (Looks for for concerts in the area)" );
         console.log("node liri.js do-what-it-says -- (Looks for a ramdom thing to do)" );
         console.log("node liri.js movie-this + movie title -- (Looks for the moive title you entered and returns info from OMDB)");
         console.log("node liri.js spotify-this-song + song title -- (Searches SPotify for the song title you entered)");
