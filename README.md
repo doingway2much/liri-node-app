@@ -16,14 +16,18 @@ Here are a list of the LIRI commands and what they do:
 
 
 ***
-#Install Instructions:
+# Install Instructions:
 
 1. Clone the GitHub repo using the following command:
-- "git clone https://github.com/doingway2much/liri-node-app.git"
+```
+git clone https://github.com/doingway2much/liri-node-app.git
+```
 
 2. To run the bot you will need need the followin pakages installed:
-- "npm install"
-*(Please ntoe that the "package.json" files has all the pakages you need so you should be able to run "npm install")*
+```
+npm install
+````
+*(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to isntall them indavidualy")*
 
 - axios
 - dotenv
