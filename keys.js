@@ -1,4 +1,5 @@
-console.log('this is loaded');
+console.log("============================================================")
+console.log('Spotify Client loaded in background...');
 
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
