@@ -1,10 +1,18 @@
 require("dotenv").config();
 var keys = require("./keys.js");
 var moment = require('moment');
+var fs = require("fs");
 var axios = require("axios");
 var spotify = require('node-spotify-api');
 var userInput = process.argv[3];
 var liriOption = process.argv[2];
+var spotify = new spotify(keys.spotify);
+
+// Creates log file to be written too with header
+// fs.writeFile('logs.txt', '######liri-node-app LOG FILE#####', function (err) {
+//     if (err) throw err;
+//     console.log('File is created successfully.');
+//   }); 
 
 
 switch (liriOption) {
@@ -13,19 +21,31 @@ switch (liriOption) {
         break;
 
     case "spotify-this-song":
-        var spotify = new spotify(keys.spotify);
+        
         spotifyThis(userInput);
         break;
 
     case "concert-this":
         concertThis(userInput);
         break;
-
-}
+        
+    case "do-what-it-says":
+        randomThis();
+        break;
+    default:
+        console.log("============================================================")
+        console.log("");
+        console.log("I'm sorry, " + liriOption + " is not a command that I am familiar with. Please use one of the following commands:" );
+        console.log("node liri.js do-what-it-says -- (Looks for a ramdom thing to do)" );
+        console.log("node liri.js movie-this + movie title -- (Looks for the moive title you entered and returns info from OMDB)");
+        console.log("node liri.js spotify-this-song + song title -- (Searches SPotify for the song title you entered)");
+        console.log("");
+        console.log("============================================================")
+    }
 
 
 // Movie This Function 
-function movieThis (movieName) {
+function movieThis(movieName) {
     if (!movieName) {
         console.log("============================================================")
         console.log("If you haven't watched 'Mr. Nobody,' then you should: ");
@@ -52,6 +72,19 @@ axios.get(queryUrl).then(
     console.log("");
     console.log("============================================================");
   })
+};
+
+function randomThis() {
+
+    fs.readFile("random.txt", "utf8", function(error, data) {
+
+        var randomArray = data.split(", ");
+        if (randomArray[0] == "spotify-this-song") {
+            spotifyThis(randomArray[1]);
+        } else if (randomArray[0] == "movie-this") {
+            movieThis(randomArray[1]);
+        } 
+    });
 };
 
 // Spotify Function 
@@ -110,3 +143,8 @@ axios.get(concertQueryUrl).then(
         console.log("Looks like that's the last one in the list");
     })
 };
+
+
+
+
+
