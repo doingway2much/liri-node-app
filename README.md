@@ -35,8 +35,12 @@ Packages need for LIRI node
 - moment
 - node-spotify-api
 
-3. You will finally neeed a Spotify API key and will have to create a ".env" file with your Spotify API details in the folling format:
+3. You will finally neeed a Spotify API key if you need help jsut click the hepl link below::
+[HELP](https://developer.spotify.com/documentation/web-api/quick-start/ "The best search engine for privacy").
 
+
+
+4. Create a ".env" file with your Spotify API details in the folling format:
 ```js
 # Spotify API keys
 
@@ -45,7 +49,7 @@ SPOTIFY_SECRET=your-spotify-secret
 
 ```
 
-4. Make a `.gitignore` file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
+5. Make a `.gitignore` file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
 
 ```
 node_modules
