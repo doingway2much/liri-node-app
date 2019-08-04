@@ -23,12 +23,13 @@ Here are a list of the LIRI commands and what they do:
 git clone https://github.com/doingway2much/liri-node-app.git
 ```
 
-2. To run the bot you will need need the followin pakages installed:
+2. Next run the following command to isntall the below packages:
 ```
 npm install
 ````
 *(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to isntall them indavidualy")*
 
+Packages need for LIRI node
 - axios
 - dotenv
 - moment
@@ -51,8 +52,6 @@ node_modules
 .DS_Store
 .env
 ```
-
-
 ***
 
 
