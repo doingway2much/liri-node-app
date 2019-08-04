@@ -32,11 +32,13 @@ Here are a list of the LIRI commands and what they do:
 
 3. You will finally neeed a Spotify API key and will have to create a ".env" file with your Spotify API details in the folling format:
 
-//Spotify API keys
+```js
+# Spotify API keys
 
 SPOTIFY_ID=your-spotify-id
-
 SPOTIFY_SECRET=your-spotify-secret
+
+```
 
 4. Make a `.gitignore` file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.
 
