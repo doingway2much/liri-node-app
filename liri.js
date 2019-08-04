@@ -1,6 +1,6 @@
 require("dotenv").config();
 var keys = require("./keys.js");
-
+var moment = require('moment');
 var axios = require("axios");
 var spotify = require('node-spotify-api');
 var userInput = process.argv[3];
@@ -15,6 +15,10 @@ switch (liriOption) {
     case "spotify-this-song":
         var spotify = new spotify(keys.spotify);
         spotifyThis(userInput);
+        break;
+
+    case "concert-this":
+        concertThis(userInput);
         break;
 
 }
@@ -47,11 +51,10 @@ axios.get(queryUrl).then(
     console.log("Actors: " + response.data.Actors);  
     console.log("");
     console.log("============================================================");
-    // console.log(response);
   })
 };
 
-
+// Spotify Function 
 function spotifyThis(songName) {
     if (!songName) {
         console.log("============================================================");
@@ -77,3 +80,33 @@ function spotifyThis(songName) {
         console.log("============================================================");
     });
 }
+
+// Concert Function
+function concertThis (artist) {
+    // if (!artist) {
+    //     console.log("============================================================")
+    //     console.log("If you haven't watched 'Mr. Nobody,' then you should: ");
+    //     console.log("Heres a link to IMDB: http://www.imdb.com/title/tt0485947/");
+    //     console.log("It's on Netflix!");
+    //     movieName = "Mr. Nobody";
+    // }
+
+var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
+
+axios.get(concertQueryUrl).then(
+  function(response) {
+    for ( i = 0; 0 < response.data.length; i++) {
+    console.log("============================================================");
+    console.log("");
+    console.log("Artists: " + response.data[i].lineup);
+    console.log("Venue Name: " + response.data[i].venue.name);
+    console.log("Venue Address: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
+    var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
+    console.log("Concert Date: " + momentTime);
+    console.log("");
+    console.log("============================================================");
+  
+    }}).catch(function(error) {
+        console.log("Looks like that's the last one in the list");
+    })
+};
