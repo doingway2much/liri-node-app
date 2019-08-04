@@ -6,6 +6,7 @@ The liri-node-app that is written in javascript and run in Node JS.  It take is 
 Here are a list of the LIRI commands and what they do:
 
 1. node liri.js concert-this + artist  (Searches for concerts by the artists supplied) 
+![img1](https://github.com/doingway2much/liri-node-app/blob/master/img/concert-this.JPG?raw=true)
 2. node liri.js do-what-it-says  (Randomly picks something to do from the ramdom.txt file and executes the script for Spotify or OMDB)
 3. node liri.js movie-this + movie title  (Searches for the movie name that the user supplied in the second peramater)
 4. node liri.js spotify-this-song + song title  (Searches for the song name that the user supplied in the second peramater)
