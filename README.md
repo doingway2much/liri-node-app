@@ -1,11 +1,9 @@
 # liri-node-app
 
-Video Demo of of the code:
-[![DEMO](https://github.com/doingway2much/liri-node-app/blob/master/img/concert-this.JPG)](https://youtu.be/-9UjfbRNxQY "LIRI DEMO")
-
-
-
 The liri-node-app that is written in javascript and run in Node JS.  It take is two peramaters one is the LIRI command and the other is the text you want to search for be it a band name or a movie title.
+
+[![DEMO](https://github.com/doingway2much/liri-node-app/blob/master/img/demo.jpg)](https://youtu.be/-9UjfbRNxQY "LIRI DEMO")
+
 
 Here are a list of the LIRI commands and what they do:
 
@@ -31,7 +29,7 @@ git clone https://github.com/doingway2much/liri-node-app.git
 ```
 npm install
 ````
-*(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to isntall them indavidualy")*
+*(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to install them indavidualy")*
 
 Packages need for LIRI node
 - axios
@@ -39,8 +37,8 @@ Packages need for LIRI node
 - moment
 - node-spotify-api
 
-3. You will finally neeed a Spotify API key if you need help jsut click the hepl link below::
-[HELP](https://developer.spotify.com/documentation/web-api/quick-start/ "The best search engine for privacy").
+3. You will finally neeed a Spotify API key if you need help just click [HERE](https://developer.spotify.com/documentation/web-api/quick-start/ "The best search engine for privacy").
+
 
 
 
