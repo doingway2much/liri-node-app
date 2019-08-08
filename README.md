@@ -37,8 +37,8 @@ Packages need for LIRI node
 - moment
 - node-spotify-api
 
-3. You will finally neeed a Spotify API key if you need help jsut click the hepl link below::
-[HELP](https://developer.spotify.com/documentation/web-api/quick-start/ "The best search engine for privacy").
+3. You will finally neeed a Spotify API key if you need help just click [HERE](https://developer.spotify.com/documentation/web-api/quick-start/ "The best search engine for privacy").
+
 
 
 
