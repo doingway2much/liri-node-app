@@ -8,13 +8,8 @@ var userInput = process.argv[3];
 var liriOption = process.argv[2];
 var spotify = new spotify(keys.spotify);
 
-// Creates log file to be written too with header
-// fs.writeFile('logs.txt', '######liri-node-app LOG FILE#####', function (err) {
-//     if (err) throw err;
-//     console.log('File is created successfully.');
-//   }); 
 
-
+//LIRI Options
 switch (liriOption) {
     case "movie-this":
         movieThis(userInput);
@@ -75,6 +70,7 @@ axios.get(queryUrl).then(
   })
 };
 
+// Random this funtion
 function randomThis() {
 
     fs.readFile("random.txt", "utf8", function(error, data) {
@@ -117,14 +113,6 @@ function spotifyThis(songName) {
 
 // Concert Function
 function concertThis (artist) {
-    // if (!artist) {
-    //     console.log("============================================================")
-    //     console.log("If you haven't watched 'Mr. Nobody,' then you should: ");
-    //     console.log("Heres a link to IMDB: http://www.imdb.com/title/tt0485947/");
-    //     console.log("It's on Netflix!");
-    //     movieName = "Mr. Nobody";
-    // }
-
 var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
 axios.get(concertQueryUrl).then(
