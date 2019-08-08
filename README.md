@@ -1,7 +1,7 @@
 # liri-node-app
 
 Video Demo of of the code:
-![vid1](https://github.com/doingway2much/liri-node-app/blob/master/video/LIRI_DEMO.mp4?raw=true)
+![](https://github.com/doingway2much/liri-node-app/blob/master/video/LIRI_DEMO.mp4)
 
 The liri-node-app that is written in javascript and run in Node JS.  It take is two peramaters one is the LIRI command and the other is the text you want to search for be it a band name or a movie title.
 
