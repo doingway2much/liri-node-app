@@ -29,7 +29,7 @@ git clone https://github.com/doingway2much/liri-node-app.git
 ```
 npm install
 ````
-*(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to isntall them indavidualy")*
+*(Please ntoe that the "package.json" files has all the pakages you need otherwise you would have to install them indavidualy")*
 
 Packages need for LIRI node
 - axios
