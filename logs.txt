@@ -1,1 +1,359 @@
-######liri-node-app LOG FILE#####
+
+============================================================
+
+Here some info on the movie from OMDB;
+Title: Friday
+Year: 1995
+IMDB Rating: 7.3
+Rotten Tomatoes Rating : 54/100
+Country: USA
+Language: English
+Plot: Two homies, Smokey and Craig, smoke a dope dealer's weed and try to figure a way to get the $200 they owe to the dealer by 10 p.m. that same night.
+Actors: Ice Cube, Chris Tucker, Nia Long, Tommy 'Tiny' Lister
+
+============================================================
+=============================================================
+
+Track Info:
+Artist: Adele
+Song: Hello
+Link: https://open.spotify.com/track/4sPmO7WMQUAf45kwMOtONw
+Album: 25
+
+============================================================
+Pretty cool how bout you search for another one
+============================================================
+=============================================================
+
+Track Info:
+Artist: Backstreet Boys
+Song: I Want It That Way
+Link: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+Album: The Hits--Chapter One
+
+============================================================
+Pretty cool how bout you search for another one
+============================================================
+============================================================
+
+Artists: Post Malone,Jungle,Protoje,Years & Years,The Indiggnation,Masego,Vini Vici,Parcels,Iamddb.
+Venue Name: SZIGET FESTIVAL
+enue Address: Budapest, 
+Concert Date: 08/11/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: Pukkelpop Festival
+enue Address: Hasselt, 
+Concert Date: 08/16/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: Krakow Live Fest
+enue Address: Krakow, 
+Concert Date: 08/17/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: Summer In The City
+enue Address: Dublin, 
+Concert Date: 08/22/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: Reading Festival
+enue Address: Reading, 
+Concert Date: 08/24/2019
+============================================================
+
+Artists: Post Malone,Foo Fighters,A Day To Remember,Blossoms,Bastille,Royal Blood,The 1975,twenty one pilots,Mura Masa,Anderson .Paak,The Free Nationals,Stefflon Don,Billie Eilish
+Venue Name: Leeds Festival
+enue Address: Leeds, 
+Concert Date: 08/25/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Tacoma Dome
+enue Address: Tacoma, WA
+Concert Date: 09/14/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Vancouver, 
+Concert Date: 09/16/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Rose Quarter (Consists of the Moda Center and Veterans Memorial Coliseum)
+enue Address: Portland, OR
+Concert Date: 09/17/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Golden 1 Center
+enue Address: Sacramento, CA
+Concert Date: 09/19/2019
+============================================================
+
+Artists: Post Malone,Tyla Yaweh
+Venue Name: Save Mart Center
+enue Address: Fresno, CA
+Concert Date: 09/21/2019
+============================================================
+
+Artists: Post Malone,Lil Wayne,The Black Keys,Janelle Monae,Vampire Weekend,Zedd,Chance The Rapper,Billie Eilish
+Venue Name: Life Is Beautiful
+enue Address: Las Vegas, NV
+Concert Date: 09/22/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Xcel Energy Center
+enue Address: St Paul, MN
+Concert Date: 09/26/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Xcel Energy Center
+enue Address: St Paul, MN
+Concert Date: 09/27/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Little Caesars Arena
+enue Address: Detroit, MI
+Concert Date: 09/29/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: United Center
+enue Address: Chicago, IL
+Concert Date: 10/01/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Scotiabank Arena
+enue Address: Toronto, 
+Concert Date: 10/03/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Toronto, 
+Concert Date: 10/04/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: KeyBank Center
+enue Address: Buffalo, NY
+Concert Date: 10/06/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Boston, MA
+Concert Date: 10/08/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: TD Garden
+enue Address: Boston, MA
+Concert Date: 10/09/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Boardwalk Hall
+enue Address: Atlantic City, NJ
+Concert Date: 10/11/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Capital One Arena
+enue Address: Washington, DC
+Concert Date: 10/12/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: Hulu Theater at Madison Square Garden
+enue Address: New York, NY
+Concert Date: 10/14/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: New York, NY
+Concert Date: 10/15/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: PNC Arena
+enue Address: Raleigh, NC
+Concert Date: 10/17/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: State Farm Arena
+enue Address: Atlanta, GA
+Concert Date: 10/18/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: American Airlines Arena
+enue Address: Miami, FL
+Concert Date: 10/20/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: BB&T
+enue Address: Fort Lauderdale, FL
+Concert Date: 10/21/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Amalie Arena
+enue Address: Tampa, FL
+Concert Date: 10/24/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Jacksonville, FL
+Concert Date: 10/25/2019
+============================================================
+
+Artists: Post Malone,Beck,Interpol,Brandi Carlile,The Lovemakers,The National,Bring Me the Horizon,Bassnectar,Cray,Brutus,Moon Taxi,Guns N' Roses,Ashe,Phantoms,WHIPPED CREAM,The Glitch Mob,Big Gigantic,opiuo,Ducky,Snails,Mobley,Elohim,MISSIO,Temples,Rezz,Young the Giant,Hippo Campus,SHAED,Flamingosis,ZHU,Njomza,The Ghost of Paul Revere,Denzel Curry,Dr. Fresch,Grandson,Duncan Fellows,Peekaboo,iglooghost,Magic City Hippies,Bea Miller,Big Wild,Sun Seeker,Japanese Breakfast,Seratones,Liily,Medasin,MEMBA,Maggie Lindemann,Jai Wolf,Mattiel,Hobo Johnson,Bishop Briggs,Willaris. K,Clairo,K?d,Still Woozy,Sheck Wes,Des Rocs,Pink Sweat$
+Venue Name: Voodoo Music + Arts Experience
+enue Address: New Orleans, LA
+Concert Date: 10/27/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: AT&T Center
+enue Address: San Antonio, TX
+Concert Date: 10/29/2019
+============================================================
+
+Artists: Post Malone
+Venue Name: POSTY FEST
+enue Address: Dallas, TX
+Concert Date: 11/02/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Chesapeake Energy Arena
+enue Address: Oklahoma City, OK
+Concert Date: 11/04/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Toyota Center
+enue Address: Houston, TX
+Concert Date: 11/05/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Gila River Arena
+enue Address: Glendale, AZ
+Concert Date: 11/08/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Pepsi Center
+enue Address: Denver, CO
+Concert Date: 11/10/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Vivint Smart Home Arena
+enue Address: Salt Lake City, UT
+Concert Date: 11/11/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Oracle Arena
+enue Address: Oakland, CA
+Concert Date: 11/14/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Honda Center
+enue Address: Anaheim, CA
+Concert Date: 11/16/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Anaheim, CA
+Concert Date: 11/17/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: The Forum
+enue Address: Los Angeles, CA
+Concert Date: 11/20/2019
+============================================================
+
+Artists: Post Malone,Swae Lee,Tyla Yaweh
+Venue Name: Runaway Tour
+enue Address: Los Angeles, CA
+Concert Date: 11/21/2019
+============================================================
+
+I'm sorry, undefined is not a command that I am familiar with. Please use one of the following commands:
+node liri.js concert-this + artist -- (Looks for for concerts in the area)
+node liri.js do-what-it-says -- (Looks for a ramdom thing to do)
+node liri.js movie-this + movie title -- (Looks for the moive title you entered and returns info from OMDB)
+node liri.js spotify-this-song + song title -- (Searches SPotify for the song title you entered)
+
+============================================================Spotify function results
+=============================================================
+
+Track Info:
+Artist: Adele
+Song: Hello
+Link: https://open.spotify.com/track/4sPmO7WMQUAf45kwMOtONw
+Album: 25
+
+============================================================
+Pretty cool how bout you search for another one
+============================================================
+Spotify function results
+=============================================================
+
+Track Info:
+Artist: Ice Cube
+Song: It Was A Good Day
+Link: https://open.spotify.com/track/2qOm7ukLyHUXWyR4ZWLwxA
+Album: The Predator
+
+============================================================
+Pretty cool how bout you search for another one
+============================================================movieThis function results:
+============================================================
+
+Here some info on the movie from OMDB;
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating : 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+============================================================
+movieThis function results:
+============================================================
+
+Here some info on the movie from OMDB;
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8
+Rotten Tomatoes Rating : 67%
+Country: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+
+============================================================

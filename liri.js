@@ -28,25 +28,30 @@ switch (liriOption) {
         randomThis();
         break;
     default:
-        console.log("============================================================")
-        console.log("");
-        console.log("I'm sorry, " + liriOption + " is not a command that I am familiar with. Please use one of the following commands:" );
-        console.log("node liri.js concert-this + artist -- (Looks for for concerts in the area)" );
-        console.log("node liri.js do-what-it-says -- (Looks for a ramdom thing to do)" );
-        console.log("node liri.js movie-this + movie title -- (Looks for the moive title you entered and returns info from OMDB)");
-        console.log("node liri.js spotify-this-song + song title -- (Searches SPotify for the song title you entered)");
-        console.log("");
-        console.log("============================================================")
+        var defaultData = 
+        "\n============================================================" +
+        "\n" +
+        "\nI'm sorry, " + liriOption + " is not a command that I am familiar with. Please use one of the following commands:" +
+        "\nnode liri.js concert-this + artist -- (Looks for for concerts in the area)" +
+        "\nnode liri.js do-what-it-says -- (Looks for a ramdom thing to do)" +
+        "\nnode liri.js movie-this + movie title -- (Looks for the moive title you entered and returns info from OMDB)" +
+        "\nnode liri.js spotify-this-song + song title -- (Searches SPotify for the song title you entered)" +
+        "\n" +
+        "\n============================================================";
+        console.log(defaultData);
+        fs.appendFileSync("logs.txt", defaultData)
     }
 
 
 // Movie This Function 
 function movieThis(movieName) {
     if (!movieName) {
-        console.log("============================================================")
-        console.log("If you haven't watched 'Mr. Nobody,' then you should: ");
-        console.log("Heres a link to IMDB: http://www.imdb.com/title/tt0485947/");
-        console.log("It's on Netflix!");
+        var defaultMovieData =
+        "\n============================================================" +
+        "\nIf you haven't watched 'Mr. Nobody,' then you should: " +
+        "\nHeres a link to IMDB: http://www.imdb.com/title/tt0485947/" +
+        "\nIt's on Netflix!";
+        console.log(defaultMovieData);
         movieName = "Mr. Nobody";
     }
 
@@ -54,27 +59,31 @@ var queryUrl = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=short&apikey
 
 axios.get(queryUrl).then(
   function(response) {
-    console.log("============================================================");
-    console.log("");
-    console.log("Here some info on the movie from OMDB;");
-    console.log("Title: " + response.data.Title);  
-    console.log("Year: " + response.data.Year);  
-    console.log("IMDB Rating: " + response.data.imdbRating);  
-    console.log("Rotten Tomatoes Rating : " + response.data.Ratings[1].Value);  
-    console.log("Country: " + response.data.Country); 
-    console.log("Language: " + response.data.Language); 
-    console.log("Plot: " + response.data.Plot);
-    console.log("Actors: " + response.data.Actors);  
-    console.log("");
-    console.log("============================================================");
+    var movieData =
+    "\n============================================================" +
+    "\n" +
+    "\nHere some info on the movie from OMDB;" + 
+    "\nTitle: " + response.data.Title + 
+    "\nYear: " + response.data.Year  +
+    "\nIMDB Rating: " + response.data.imdbRating + 
+    "\nRotten Tomatoes Rating : " + response.data.Ratings[1].Value + 
+    "\nCountry: " + response.data.Country + 
+    "\nLanguage: " + response.data.Language + 
+    "\nPlot: " + response.data.Plot + 
+    "\nActors: " + response.data.Actors + 
+    "\n" + 
+    "\n============================================================";
+    console.log(movieData);
+    fs.appendFileSync("logs.txt", "\nmovieThis function results:" + movieData)
+  })
+  .catch(function (error) {
+    console.log("Looks like that's not a vaild movie name try again");
   })
 };
 
 // Random this funtion
 function randomThis() {
-
     fs.readFile("random.txt", "utf8", function(error, data) {
-
         var randomArray = data.split(", ");
         if (randomArray[0] == "spotify-this-song") {
             spotifyThis(randomArray[1]);
@@ -89,27 +98,33 @@ function spotifyThis(songName) {
     if (!songName) {
         console.log("============================================================");
         console.log("");
-        console.log("Looks liek you didn't pick a song");
-        console.log("Lets go with THe Sign by Ace of Base");
+        console.log("Looks like you didn't pick a song");
+        console.log("Lets go with The Sign by Ace of Base");
         songName = "The Sign Ace of base";
     }
     spotify.search({ type: 'track', query: songName }, function (err, data) {
         if (err) {
-            return console.log('Error occurred: ' + err);
+            fs.appendFileSync("logs.txt", "\nError occurred: " + err);
+            return console.log("Looks like that's a valid song title....Please try again")
         }
-        console.log("============================================================");
-        console.log("");
-        console.log("Track Info:");
-        console.log("Artist: " + data.tracks.items[0].artists[0].name);
-        console.log("Song: " + data.tracks.items[0].name);
-        console.log("Link: " + data.tracks.items[0].external_urls.spotify);
-        console.log("Album: " + data.tracks.items[0].album.name);
-        console.log("");
-        console.log("============================================================");
-        console.log("Pretty cool how bout you search for another one");
-        console.log("============================================================");
-    });
-}
+        
+        var songData = 
+        "\n=============================================================" +
+        "\n" + 
+        "\nTrack Info:" + 
+        "\nArtist: " + data.tracks.items[0].artists[0].name +
+        "\nSong: " + data.tracks.items[0].name +
+        "\nLink: " + data.tracks.items[0].external_urls.spotify +
+        "\nAlbum: " + data.tracks.items[0].album.name +
+        "\n" + 
+        "\n============================================================" + 
+        "\nPretty cool how bout you search for another one" +
+        "\n============================================================";
+        console.log(songData);
+        fs.appendFileSync("logs.txt", "\nSpotify function results:" + songData);
+    })
+    
+};
 
 // Concert Function
 function concertThis (artist) {
@@ -118,18 +133,26 @@ var concertQueryUrl = "https://rest.bandsintown.com/artists/" + artist + "/event
 axios.get(concertQueryUrl).then(
   function(response) {
     for ( i = 0; 0 < response.data.length; i++) {
-    console.log("============================================================");
-    console.log("");
-    console.log("Artists: " + response.data[i].lineup);
-    console.log("Venue Name: " + response.data[i].venue.name);
-    console.log("Venue Address: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
     var momentTime = moment(response.data[i].datetime).format('MM/DD/YYYY');
-    console.log("Concert Date: " + momentTime);
-    console.log("");
-    console.log("============================================================");
+    var concertData =
+    "\n============================================================" + 
+    "\n" + 
+    "\nArtists: " + response.data[i].lineup + 
+    "\nVenue Name: " + response.data[i].venue.name + 
+    "\nenue Address: " + response.data[i].venue.city + ", " + response.data[i].venue.region + 
+    "\nConcert Date: " + momentTime
+    "\n" + 
+    "\n============================================================";
+    console.log(concertData);
+    fs.appendFileSync("logs.txt", "\nConcertThis function results" + concertData);
   
     }}).catch(function(error) {
-        console.log("Looks like that's the last one in the list");
+        console.log(error);
+        var concertError =
+        "\n============================================================" + 
+        "\n" + 
+        "\nLooks like that's the last one in the list";
+        console.log(concertError);
     })
 };
 
