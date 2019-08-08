@@ -1,7 +1,7 @@
 # liri-node-app
 
 Video Demo of of the code:
-[![DEMO](https://github.com/doingway2much/liri-node-app/blob/master/img/concert-this.JPG)](https://youtu.be/-9UjfbRNxQY "LIRI DEMO")
+[![DEMO](https://github.com/doingway2much/liri-node-app/blob/master/img/demo.jpg)](https://youtu.be/-9UjfbRNxQY "LIRI DEMO")
 
 
 
